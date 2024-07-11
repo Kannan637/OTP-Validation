@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    text-align: center;
+    border-radius: 12px;
+    width: 60%;
+    height: auto;
+    padding: 24px;
+    background: linear-gradient(135deg,#6832ff,#020236);
+}
+.numbers{
+    display: flex;
+    justify-content:center;
+    gap: 5px;
+}
+input{
+    width:25%;
+    cursor: none;
+    pointer-events: none;
+    height: 70px;
+    border-radius: 8px;
+    border: transparent;
+    text-align: center;
+    font-size: 30px
+}
+input:focus{
+    outline: none;
+}
+.digit:nth-child(1){
+    cursor: pointer;
+    pointer-events: all;
+}
+.btn{
+    padding: 4px 16px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 12px;
+    margin-top: 16px;
+    border:1px solid white;
+    background: #6832ff;
+    color: #dcdcdc;
+}
+h2{
+    color: #dcdcdc;
+}
+p{
+    color: #dcdcdc;
+}
+a{
+    color: blue;
+}
